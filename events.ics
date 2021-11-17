@@ -1,9 +1,8 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//ical.marudot.com//iCal Event Maker
-X-WR-CALNAME:mimikry leipzig
-NAME:mimikry leipzig
-REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-WR-CALNAME:mimikry events
+NAME:mimikry events
 CALSCALE:GREGORIAN
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
@@ -26,19 +25,16 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20211114T203533Z
-UID:1636921238339-25403@ical.marudot.com
+DTSTAMP:20211117T164132Z
+UID:1637167163254-51722@ical.marudot.com
 DTSTART;TZID=Europe/Berlin:20211127T120000
 DTEND;TZID=Europe/Berlin:20211127T190000
-SUMMARY:mimikry Basar
+SUMMARY:Basar @ mimikry
 URL:mimikry.me
-DESCRIPTION:Basar beim mimikry\nLiebe Freunde und Freundinnen des mimikry\,\ndas Jet-lag der Zeitumstellung\, die x-te Welle und der sich ankündigende Vitamin-D Mangel nagen ein wenig an unserer aller Nerven.\nDoch nun steht die dunkle aber dafür umso kuscheligere Winterzeit bevor. Im Zeichen dieser aber vor allem im Zeichen der Nachhaltigkeit und im Zeichen lokaler Produkte soll am 27.11.2021 von 12 bis 19 Uhr der erste mimikry Basar stattfinden. Hier findet ihr keine Nachahmungen\, sondern ausnahmslos Unikate und Originelles zum direkten Genießen oder Mitnehmen. \n\nFür euch zu durchsuchen gibt es:\n🧼Seifen und 🧴 Cremes von petrichor.leipzig\n🔪Schneidebrettchen und Seifenbrettchen von mimikry holzhandwerk\n💡Lampen von lumpa.lamps und\n☕blackspot.coffee mit coldbrew coffee\n Packt euch und eure Liebsten warm ein und kommt vorbei!\n
 LOCATION:Breite Str. 8\, 04317 Leipzig
-TRANSP:TRANSPARENT
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:mimikry Basar
+DESCRIPTION:Basar @ mimikry
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
